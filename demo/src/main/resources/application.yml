@@ -1,0 +1,16 @@
+server:
+  port: 32001
+spring:
+  application:
+    name: demo-rabbit
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+    publisher-confirms: true
+    dynamic: true
+    cache:
+      connection:
+        mode: channel
+
