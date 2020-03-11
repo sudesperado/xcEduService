@@ -13,4 +13,7 @@ spring:
     cache:
       connection:
         mode: channel
+    listener:
+      simple:
+        default-requeue-rejected: false
 
