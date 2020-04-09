@@ -17,3 +17,15 @@ spring:
       simple:
         default-requeue-rejected: false
 
+  redis:
+    host: 192.168.1.63
+    port: 7000
+    database: 3
+    password: Abcd1234!.com
+    lettuce:
+      pool:
+        maxActive: 8
+        maxWait: -1
+        maxIdle: 8
+        minIdle: 0
+
